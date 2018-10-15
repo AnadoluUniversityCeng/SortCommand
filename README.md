@@ -1,4 +1,4 @@
-# Extended [Locale](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) Sensitive String Sort
+﻿# Extended [Locale](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) Sensitive String Sort
 
 In the [previous programming assignment](https://github.com/AnadoluUniversityCeng/LocaleSensitiveSort), you implemented a Java application that sorts lines in a text file.
 The objective was to understand that String sort is actually a locale-sensitive operation. 
@@ -102,10 +102,12 @@ z
 ı
 ş
 `
-whereas sorting Turkish letters **with** `-l tr-TR` option will produce the correct order.
+whereas sorting Turkish letters **with** `-l tr-TR` will produce the correct order.
 
 **P.S.** To parse command line arguments, you can use [JewelCLI](http://jewelcli.lexicalscope.com) library.
 
 **P.P.S**: Optional parameter [finalName](https://maven.apache.org/plugins/maven-shade-plugin/shade-mojo.html#finalName) can be used to change the name of the shaded artifactId.
 
 :exclamation: If you don't follow the aforementioned conventions, you will receive very poor grades (even if you think that your code works perfectly).
+
+New line added.
